@@ -39,6 +39,10 @@ function ThreadCard({
   comments,
   isComment,
 }: Props) {
+  if (!author || !author.id) {
+    return null; // Handle the case where author or author.id is null
+  }
+
   return (
     <article
       className={`flex w-full flex-col rounded-xl ${
