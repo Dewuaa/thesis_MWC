@@ -21,11 +21,36 @@ export default function RootLayout({
   return (
     <ClerkProvider
       appearance={{
-        baseTheme: dark,
+        
       }}
     >
       <html lang='en'>
-        <body className={`${inter.className} bg-dark-1`}>{children}</body>
+        <body
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            minHeight: "100vh",
+            position: "relative",
+            backgroundImage: "url('/assets/eyy.svg')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+          className={inter.className}
+        >
+
+           <img
+            src="/assets/Design.svg"
+            alt="Description of your image"
+            style={{
+              width: "120px", // Default width for larger screens
+              height: "120px", // Default height for larger screens
+              position: "absolute",
+              top: "60px", // Adjust top position as needed
+            }}
+          />
+          {children}
+        </body>
       </html>
     </ClerkProvider>
   );

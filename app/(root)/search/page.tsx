@@ -27,7 +27,7 @@ async function Page({
 
   return (
     <section>
-      <h1 className='head-text mb-10'>Search</h1>
+      <h1 className='head-text mb-10 text-pink-300'>Search</h1>
 
       <Searchbar routeType='search' />
 

@@ -75,13 +75,12 @@ const AccountProfile = ({ user, btnTitle }: Props) => {
       image: values.profile_photo,
     });
 
-    if (pathname === "/profile/edit") {
-      router.back();
-    } else {
-      router.push("/");
+    if (pathname !== "/profile/editprofile") {
+      await router.push("/profile/editprofile");
     }
-  };
 
+  };
+  
   const handleImage = (
     e: ChangeEvent<HTMLInputElement>,
     fieldChange: (value: string) => void
