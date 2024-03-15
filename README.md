@@ -1,12 +1,12 @@
-CODE - ADA
+CODE - ADA 
 THESIS
 
 MENTAL WELL CONNECT
 
 MEMBERS:
-MARIELLE CORPUZ
-JOHN GABRIEL C. ORBETA
-JOHN ALSHERETTE M. RAMOS
+1. MARIELLE CORPUZ
+2. JOHN GABRIEL C. ORBETA
+3. JOHN ALSHERETTE M. RAMOS
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
