@@ -3,6 +3,10 @@ THESIS
 
 MENTAL WELL CONNECT
 
+MEMBERS:
+MARIELLE CORPUZ
+JOHN GABRIEL C. ORBETA
+JOHN ALSHERETTE M. RAMOS
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
